@@ -325,3 +325,91 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+.contact .container {
+  padding: 5rem 4rem 7rem 4rem;
+  display: flex;
+}
+
+.contact .contact-text {
+  position: static;
+  width: 455px;
+  height: 256px;
+  left: 0px;
+  top: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 10px 24px 0;
+}
+
+.contact .container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 684px;
+  height: 330px;
+  left: 479px;
+  top: 130px;
+  margin-top: 24px;
+}
+
+.contact .container form .name-group {
+  display: flex;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+
+.contact .container form .name-group input{
+  flex-grow: 1;
+  border: 0;
+  border-bottom: solid 2px #DBD8D7;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* .contact .container form .name-group input[name="fname"]{
+
+}
+
+.contact .container form .name-group input[name="lname"]{
+
+} */
+
+.contact .container form .email input{
+  border: 0;
+  border-bottom: solid 2px #DBD8D7;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.contact .container form textarea {
+  border: 0;
+  background: #FBF8F7;
+  width: 100%;
+  padding: 15px 10px 15px 10px;
+  margin-bottom: 20px;
+}
+
+.contact .container form .btn{
+  padding: 15px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  background: #F55800;
+  font-family: "Roboto";
+  border: 0;
+}
