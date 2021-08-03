@@ -223,13 +223,13 @@
           </div>
           <form method="post" action="https://formspree.io/f/xeqvrzly">
             <div class="name-group">
-              <input type="text" name="fname" placeholder="First Name">
-              <input type="text" name="lname" placeholder="Last Name">
+              <input type="text" name="fname" maxlength="30" placeholder="First Name" required>
+              <input type="text" name="lname" maxlength="30" placeholder="Last Name" required>
             </div>
             <input class="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" name="email"
-              placeholder="Email address">
+              placeholder="Email address" required>
             <textarea name="message" maxlength="500" class="message" rows="5"
-              placeholder="Write your message here"></textarea>
+              placeholder="Write your message here" required></textarea>
             <button type="submit" class="btn">Get in touch</button>
           </form>
         </div>
